@@ -2,4 +2,4 @@
 ## A project implementing javaScript Functionality to make a quiz game 
 __This game application is built using HTML, CSS and javaScript. Simple and responsive website.__
 
-_Live Project :_ __abcd__
+_Live Project :_ __https://kyun-banega-crorepati.netlify.app/__
