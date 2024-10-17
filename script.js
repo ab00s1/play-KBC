@@ -23,21 +23,21 @@ const timerElm = document.querySelector("body > div > div.quiz > div.timer");
 
 const questions = [
   {
-    question: "Which is the longest river in the world?",
+    question: "Which is the tallest building in India?",
     answers: [
-      { text: "a) Amazon", correct: false },
-      { text: "b) Nile", correct: true },
-      { text: "c) Mississippi", correct: false },
-      { text: "d) Yangtze", correct: false },
+      { text: "a) Eifel Tower", correct: false },
+      { text: "b) Trump Tower", correct: false },
+      { text: "c) Palais Royale", correct: true },
+      { text: "d) The Imperial II", correct: false },
     ],
   },
   {
-    question: "What is the chemical formula of water?",
+    question: "What is the temperature at which liquid water has the highest density?",
     answers: [
-      { text: "a) H₂O₂", correct: false },
-      { text: "b) H₂O", correct: true },
-      { text: "c) O₂", correct: false },
-      { text: "d) CO₂", correct: false },
+      { text: "a) 0 K", correct: false },
+      { text: "b) 98.6 °F", correct: false },
+      { text: "c) 4 °C", correct: true },
+      { text: "d) 23 °F", correct: false },
     ],
   },
   {
@@ -51,21 +51,21 @@ const questions = [
     ],
   },
   {
-    question: "Who was the first President of the United States?",
+    question: "Who was the second President of the India?",
     answers: [
-      { text: "a) Abraham Lincoln", correct: false },
-      { text: "b) George Washington", correct: true },
-      { text: "c) Thomas Jefferson", correct: false },
-      { text: "d) John Adams", correct: false },
+      { text: "a) Lal Bahadur Shastri", correct: false },
+      { text: "b) Sarvepalli Radhakrishnan", correct: true },
+      { text: "c) Mahatma Gandhi", correct: false },
+      { text: "d) Gulzarilal Nanda", correct: false },
     ],
   },
   {
-    question: "Which vitamin is also known as ascorbic acid?",
+    question: "Which of the following vitamins is a water-soluble vitamin?",
     answers: [
       { text: "a) Vitamin A", correct: false },
-      { text: "b) Vitamin B", correct: false },
-      { text: "c) Vitamin C", correct: true },
-      { text: "d) Vitamin D", correct: false },
+      { text: "b) Vitamin D", correct: false },
+      { text: "c) Vitamin K", correct: false },
+      { text: "d) Vitamin C", correct: true },
     ],
   },
   {
